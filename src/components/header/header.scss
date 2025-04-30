@@ -1,0 +1,11 @@
+.header{
+    padding: 2rem;
+    display: flex;
+    gap: 30px;
+    img{
+        cursor: pointer;
+    }
+    .header__title{
+        color: #4E148C;
+    }
+}

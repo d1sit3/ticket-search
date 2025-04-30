@@ -1,0 +1,23 @@
+.nav{
+    .nav__btn{
+        cursor: pointer;
+        background-color: #E8EBF2;
+        border: 1px solid #4E148C;
+        color: #4E148C;
+        width: 242px;
+        height: 55px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .first{
+        border-radius: 10px 0 0 10px;
+    }
+    .last{
+        border-radius: 0 10px 10px 0;
+    }
+    .active{
+        transition: all .3s ease-in;
+        background-color: #4E148C;
+        color: #F7F9F7;
+    }
+}
